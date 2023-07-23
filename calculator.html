@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calci.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1 class="column">WELCOME TO MY CALCULATOR!</h1>
+    <div class="saga">
+        <div class="row">
+            <input type="text" placeholder="0" id="screen">
+            <button class="operator" onclick="clearscreen()">C</button>
+            <button class="operator" onclick="del()">DEL</button>
+            <button class="operator" onclick="display('%')">%</button>
+            <button class="operator" onclick="display('/')">&#247</button>
+            <button class="value" onclick="display('7')">7</button>
+            <button class="value" onclick="display('8')">8</button>
+            <button class="value" onclick="display('9')">9</button>
+            <button class="operator" onclick="display('*')">&times</button>
+            <button class="value" onclick="display('4')">4</button>
+            <button class="value" onclick="display('5')">5</button>
+            <button class="value" onclick="display('6')">6</button>
+            <button class="operator" onclick="display('-')">-</button>
+            <button class="value" onclick="display('1')">1</button>
+            <button class="value" onclick="display('2')">2</button>
+            <button class="value" onclick="display('3')">3</button>
+            <button class="operator" onclick="display('+')">+</button>
+            <button class="value" onclick="display('0')">0</button>
+            <button class="value" onclick="display('(')">(</button>
+            <button class="value" onclick="display(')')">)</button>
+            <button class="equal" onclick="calculate()">=</button>   
+        </div>
+    </div>
+ </div>
+  <script src="calci.js"></script>
+</body>
+</html>
